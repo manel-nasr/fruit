@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+
+}
+header{
+    display:flex;
+    flex-direction:row;
+    background-color:transparent;
+     
+}
+.nav-links{
+    margin-left:400px;
+    
+}
+ div{
+    margin-left:250px;
+     font-size:40px;
+     color:#499A13
+    }
+.nav-links a{
+    margin-right:40px;
+    font-size:25px;
+    text-decoration:none;
+    color:#499A13
+}
+ .cover
+{
+    background:url(./img2.jpg);
+    height:1000px;
+     background-position:center; 
+     background-size:1000px; 
+     background-repeat:no-repeat; 
+}  
+
+
