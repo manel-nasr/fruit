@@ -105,20 +105,22 @@ header{
     width:200px;
     padding:20px;
     height:290px;
-    text-align:center;
     border-radius:10px;
-    margin-left:20px;
     margin-top:30px;
 }
-.card p{
+/* .card p{
     font-size:20px;
-    margin:0px;
-}
+    margin:0px; 
+}*/
 .card-container{
     display:flex;
     flex-direction:row;
 }
-.card:hover{
+/* .card:hover{
      background-color:var(--hover-background-color);
-   
-}
+    
+}*/
+/* .card .div{
+ 
+    border:solid 5px red;
+} */
