@@ -18,7 +18,7 @@ header{
     margin-left:400px;
     
 }
- div{
+ header div{
     margin-left:250px;
      font-size:40px;
     
@@ -38,7 +38,7 @@ header{
 }
  .cover
 {
-    background:url(./img2.jpg);
+    background:url(./img/img2.jpg);
     height:500px;
      background-position:center; 
      background-size:cover; 
@@ -79,11 +79,11 @@ header{
 .cover button:hover{
     box-shadow:1px 1px 20px #FF8F00;
 }
-.text-categorie{
+.text-categorie,.products span{
     font-size:25px;
     margin-left:100px;
 }
-.categorie button{
+.categorie button,.products button{
     color:white;
     font-size:22px;
     background-color:#499A13;
@@ -94,10 +94,12 @@ header{
 }
 .categorie{
     margin-top:20px;
+    min-height:500px;
 }
 .card img{
     width:120px;
     margin:0px;
+    
 
 }
 .card{
@@ -107,20 +109,89 @@ header{
     height:290px;
     border-radius:10px;
     margin-top:30px;
+    margin-right:20px;
+    text-align:center;
 }
-/* .card p{
-    font-size:20px;
-    margin:0px; 
-}*/
+.name1 p{
+    margin:0px;
+}
+.name{
+    margin-top:30px;
+}
+.name3,.name2{
+    margin-top:30px;
+}
 .card-container{
     display:flex;
     flex-direction:row;
+    justify-content: center;
 }
-/* .card:hover{
-     background-color:var(--hover-background-color);
+.card-products{
+    border:solid 2px grey;
+    box-shadow:1px 1px 10px ;
+    width:400px;
+    margin-right:30px;
     
-}*/
-/* .card .div{
- 
-    border:solid 5px red;
-} */
+}
+.card-products img{
+    width:200px;
+    height:200px;
+     margin:0px;
+}
+.rest{
+    padding:20px;
+}
+.container-products{
+    margin:70px 70px 50px 70px;
+    display:flex;
+    flex-direction:row
+}
+.card-products span6{
+    border: solid 1px green;
+    padding:10px;
+    margin-left:235px;
+    border-radius: 10px;
+    color:#ffff;
+    background-color: green;
+}
+span6:hover{
+    background-color:orangered;
+    border: orangered;
+}
+.products{
+    min-height:2700px;
+}
+.about img{
+    width:500px;
+}
+.about{
+    margin:0px 300px 100px 60px;
+    display:flex;
+    flex-direction:row;
+font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.about div{
+    margin-left:50px;
+}
+.contacts div{
+    font-size: 40px;
+}
+.contacts  div2 a{
+    border: solid 1px green;
+    border-radius:30px;
+    padding:5px;
+    background-color: green;
+    color:#ffff;
+}
+.contacts{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #8dc668;
+    align-items: center;
+    padding:20px 0px;
+
+}
